@@ -7,7 +7,7 @@ maintainer='Atirut Wattanamongkol <atirut.wattanamnogkol@gmail.com>'
 architectures=('amd64')
 license=('MIT')
 
-sources=('git+https://github.com/z88dk/z88dk?~recursive=true&~rev=e89d1b4477687747b500fbe0e25fc52fe35056a7')
+sources=('git+https://github.com/z88dk/z88dk?~recursive=true&~rev=3787da33d5b188f232a80d24c7ce0e3e18cca0e1')
 checksums=('SKIP')
 
 build_deps_ubuntu=('build-essential' 'bison' 'flex' 'libxml2-dev' 'subversion' 'zlib1g-dev' 'm4' 'ragel' 're2c' 'dos2unix' 'texinfo' 'texi2html' 'gdb' 'curl' 'perl' 'cpanminus' 'ccache' 'libboost-all-dev' 'libmodern-perl-perl' 'libyaml-perl' 'liblocal-lib-perl' 'libcapture-tiny-perl' 'libpath-tiny-perl' 'libtext-table-perl' 'libdata-hexdump-perl' 'libregexp-common-perl' 'libclone-perl' 'libfile-slurp-perl' 'pkg-config')
